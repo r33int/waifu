@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Waifu.exe" version="1.0.0.1" publicKeyToken="c6f7b6c3c8711a98" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Waifu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Waifu.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options du manifeste de contrôle de compte d’utilisateur (UAC)
+          Si vous voulez changer le niveau de contrôle de compte d’utilisateur Windows, remplacez le 
+          nœud requestedExecutionLevel par l’un des nœuds suivants.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si vous voulez utiliser la virtualisation de fichiers système et du Registre pour la 
+         compatibilité descendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Waifu.exe" size="16304">
+      <assemblyIdentity name="Waifu" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>H+Jj112ysq5JBM/J60KyrPHPs95ctcraXayQzpmlt40=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Waifu.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c922zfRb5ORzqEo8SDjt8Mx8lDMhGTWhqKcK/oileDM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LATITUDE\Enzo" issuerKeyHash="53ffb306bf8e0b60b61425722b24f8af61c8544a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3M76eeO4PWcFRBqhAb92k9LnIjfS2f+M1veuq5yNdWs=</DigestValue></Reference></SignedInfo><SignatureValue>tYd5oYYnVnsaV4PrVHVDDI8jNk0glseVjvBIqevLRMo2XhdLr2Xfh8d+sRuvI+f09DkOFUATgPthT4dWmJxJInM/qnpb2OSWRFiTwj2FKR0rux6m/E0bu2fIvc8pKcSHWLbg46C/cQEdb3glh/ETsRA8VrriDLNLF73EK1+s0ew=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>u7vlbV9vSVuyZNyxq5In5qJwvl0Xu5pPlZLLb5ocdzsX1A2DSTTNNJQjcOIRmbyL3BL4pdsHUSjxfQgKX7i/m4dA9Cx8VkSfeAYBXNvAyEolLrVy37K44Dh/8ZY2fbKniOYdNuo7TLtkNFand0BlFwAQIBj9OZSqv1AFIYOUb2E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6b758d9cabaef7d68cffd9d23722e7d29376bf01a11a4405673db8e379facedc" Description="" Url=""><as:assemblyIdentity name="Waifu.exe" version="1.0.0.1" publicKeyToken="c6f7b6c3c8711a98" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LATITUDE\Enzo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7IRdjYSzVgVGzHqUwvY6B4Os3Kod1Pp64wKBclc7dgk=</DigestValue></Reference></SignedInfo><SignatureValue>mz5lmAPmgSUKeIu45ZCx77l9mEG8mc1KA38r2B0mcd0E2WvGnFGjF4vk0vW1GsZxt2hhfjPYAbDDBSdEJd3bpU5bMTayH9rJX9NXnmN5uIRGLcnvqgeF1vb6YbV4vyWvn/wWvlCFRDA6xuSmQwQ7M8p5rf116xSIo0llvQz1+bg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>u7vlbV9vSVuyZNyxq5In5qJwvl0Xu5pPlZLLb5ocdzsX1A2DSTTNNJQjcOIRmbyL3BL4pdsHUSjxfQgKX7i/m4dA9Cx8VkSfeAYBXNvAyEolLrVy37K44Dh/8ZY2fbKniOYdNuo7TLtkNFand0BlFwAQIBj9OZSqv1AFIYOUb2E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQMcMrybSI1JlP6VMYPGZSYDANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoATABBAFQASQBUAFUARABFAFwARQBuAHoAbzAeFw0xODAzMTYyMDUyNDFaFw0xOTAzMTcwMjUyNDFaMCUxIzAhBgNVBAMeGgBMAEEAVABJAFQAVQBEAEUAXABFAG4AegBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7u+VtX29JW7Jk3LGrkifmonC+XRe7mk+Vkstvmhx3OxfUDYNJNM00lCNw4hGZvIvcEvil2wdRKPF9CApfuL+bh0D0LHxWRJ94BgFc28DISiUutXLfsrjgOH/xljZ9sqeI5h026jtMu2Q0Vqd3QGUXABAgGP05lKq/UAUhg5RvYQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAApIw5iwRfGO93vnCfz7mZ5A1QqrPyi6mhQCDHXG21+yk7yMF6qpxaa3Lkq6LHFotWmSKQSfotyEkqEV/AmYqqVFfyZ+Ll4jfL8w0qQmCcXfneY+o9Jx5h890+QmHQ6Fmj6aB+3jFzXAOfD27rZklV6f/vt6akc60nDDn3VpGhem</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
