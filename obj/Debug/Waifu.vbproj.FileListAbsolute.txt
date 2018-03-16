@@ -1,0 +1,16 @@
+C:\Users\Enzo\source\repos\Waifu\Waifu\bin\Debug\Waifu.exe.config
+C:\Users\Enzo\source\repos\Waifu\Waifu\bin\Debug\Waifu.exe
+C:\Users\Enzo\source\repos\Waifu\Waifu\bin\Debug\Waifu.pdb
+C:\Users\Enzo\source\repos\Waifu\Waifu\bin\Debug\Waifu.xml
+C:\Users\Enzo\source\repos\Waifu\Waifu\obj\Debug\Waifu.vbprojResolveAssemblyReference.cache
+C:\Users\Enzo\source\repos\Waifu\Waifu\obj\Debug\Waifu.Form1.resources
+C:\Users\Enzo\source\repos\Waifu\Waifu\obj\Debug\Waifu.Resources.resources
+C:\Users\Enzo\source\repos\Waifu\Waifu\obj\Debug\Waifu.vbproj.GenerateResource.Cache
+C:\Users\Enzo\source\repos\Waifu\Waifu\obj\Debug\Waifu.vbproj.CoreCompileInputs.cache
+C:\Users\Enzo\source\repos\Waifu\Waifu\obj\Debug\Waifu.exe
+C:\Users\Enzo\source\repos\Waifu\Waifu\obj\Debug\Waifu.xml
+C:\Users\Enzo\source\repos\Waifu\Waifu\obj\Debug\Waifu.pdb
+C:\Users\Enzo\source\repos\Waifu\Waifu\bin\Debug\Waifu.exe.manifest
+C:\Users\Enzo\source\repos\Waifu\Waifu\bin\Debug\Waifu.application
+C:\Users\Enzo\source\repos\Waifu\Waifu\obj\Debug\Waifu.exe.manifest
+C:\Users\Enzo\source\repos\Waifu\Waifu\obj\Debug\Waifu.application
